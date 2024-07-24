@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <span class="logo_name">Admin Dashboard</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Team</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-message' ></i>
+            <span class="links_name">Messages</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-heart' ></i>
+            <span class="links_name">Favrorites</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class='bx bx-search' ></i>
+      </div>
+      <div class="profile-details">
+        <img src="profile.jpg" alt="">
+        <span class="admin_name">EM </span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Order</div>
+            <div class="number">4,155</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from last week</span>
+            </div>
+          </div>
+          <i class='bx bx-cart-alt cart'></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Sales</div>
+            <div class="number">3,225</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from last month</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-add cart two' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Financial Gain</div>
+            <div class="number">$98,789</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">Up from last week</span>
+            </div>
+          </div>
+          <i class='bx bx-cart cart three' ></i>
+        </div>
+        <div class="box">
+          <div class="right-side">
+            <div class="box-topic">Total Return</div>
+            <div class="number">860</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">Down From Today</span>
+            </div>
+          </div>
+          <i class='bx bxs-cart-download cart four' ></i>
+        </div>
+      </div>
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Recent Sales</div>
+          <div class="sales-details">
+            <ul class="details">
+              <li class="topic">Date</li>
+              <li><a href="#">02 Feb 2022</a></li>
+              <li><a href="#">02 Feb 2022</a></li>
+              <li><a href="#">02 Feb 2022</a></li>
+              <li><a href="#">02 Feb 2022</a></li>
+              <li><a href="#">02 Feb 2022</a></li>
+              <li><a href="#">02 Feb 2022</a></li>
+              <li><a href="#">02 Feb 2022</a></li>
+              <li><a href="#">01 Feb 2022</a></li>
+              <li><a href="#">01 Feb 2022</a></li>
+            </ul>
+            <ul class="details">
+            <li class="topic">Customer</li>
+            <li><a href="#">Rita Hasani</a></li>
+            <li><a href="#">Joni Aliu</a></li>
+            <li><a href="#">Sara Hoti</a></li>
+            <li><a href="#">Luna Vitia</a></li>
+            <li><a href="#">Lekë Sejdiu</a></li>
+            <li><a href="#">Asdren Krasniqi</a></li>
+            <li><a href="#">Ariana Kadriu</a></li>
+            <li><a href="#">Shpresa Shala</a></li>
+             <li><a href="#">Gezim Abazi</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">Sales</li>
+            <li><a href="#">Delivered</a></li>
+            <li><a href="#">Delivered</a></li>
+            <li><a href="#">Returned</a></li>
+            <li><a href="#">Delivered</a></li>
+            <li><a href="#">Pending</a></li>
+            <li><a href="#">Pending</a></li>
+            <li><a href="#">Delivered</a></li>
+             <li><a href="#">Pending</a></li>
+            <li><a href="#">Delivered</a></li>
+          </ul>
+          <ul class="details">
+            <li class="topic">Total</li>
+            <li><a href="#">$274.98</a></li>
+            <li><a href="#">$59.55</a></li>
+            <li><a href="#">$75.88</a></li>
+            <li><a href="#">$25.66</a></li>
+            <li><a href="#">$56.56</a></li>
+            <li><a href="#">$44.95</a></li>
+            <li><a href="#">$67.33</a></li>
+             <li><a href="#">$74.53</a></li>
+             <li><a href="#">$46.52</a></li>
+          </ul>
+          </div>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+        <div class="top-sales box">
+          <div class="title">Top Seling Product</div>
+          <ul class="top-sales-details">
+            <li>
+            <a href="#">
+              <img src="3dprinter.jpg" alt="">
+              <span class="product">3D Printer</span>
+            </a>
+            <span class="price">$9107</span>
+          </li>
+          <li>
+            <a href="#">
+              <img src="mouse.jpg" alt="">
+              <span class="product">Mouse</span>
+            </a>
+            <span class="price">$598</span>
+          </li>
+          <li>
+            <a href="#">
+              <img src="keyboard.jpg" alt="">
+              <span class="product">Keyboard</span>
+            </a>
+            <span class="price">$734</span>
+          </li>
+          <li>
+            <a href="#">
+              <img src="airpods.jpg" alt="">
+              <span class="product">Airpods</span>
+            </a>
+            <span class="price">$2312</span>
+          </li>
+          <li>
+            <a href="#">
+              <img src="airpodsmax.jpg" alt="">
+              <span class="product">Airpods Max</span>
+            </a>
+            <span class="price">$1456</span>
+          </li>
+          <li>
+            <a href="#">
+              <img src="gamimgchair.jpg" alt="">
+              <span class="product">Gaming Chair</span>
+            </a>
+            <span class="price">$2345</span>
+          <li>
+            <a href="#">
+              <img src="gamimngpc.jpg" alt="">
+              <span class="product">Gaming Pc</span>
+            </a>
+            <span class="price">$2844</span>
+          </li>
+<li>
+            <a href="#">
+             <img src="surfacelaptop.jpg" alt="">
+              <span class="product">Microsoft Surface Laptop</span>
+            </a>
+            <span class="price">$999.99</span>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+   let sidebar = document.querySelector(".sidebar");
+let sidebarBtn = document.querySelector(".sidebarBtn");
+sidebarBtn.onclick = function() {
+  sidebar.classList.toggle("active");
+  if(sidebar.classList.contains("active")){
+  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+}else
+  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+}
+ </script>
+
+</body>
+</html>
+
